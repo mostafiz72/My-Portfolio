@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+
 import { FaCloudDownloadAlt, FaFacebookF, FaLinkedinIn, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
-// import {myphoto} from "../assets/images/myphoto.png";
+import me from "../assets/images/me.png";
 
 export default function AboutMe() {
   return (
@@ -18,7 +18,7 @@ export default function AboutMe() {
                   <span className=" text-[#5104c5]">I'm Mostafiz</span>
                 </h1>
                 <h3 className=" w-full text-[#813aeb] font-bold text-xl mb-5">Full-Stack Developer</h3>
-                <p className=" text-base text-body-color dark:text-dark-6 w-full">
+                <p className=" text-base font-semibold text-body-color dark:text-dark-6 w-full">
                 I'm Mostafiz, a passionate full-stack developer specializing in JavaScript, React.js, Next.js, and MongoDB. I enjoy building scalable web applications, user-friendly interfaces, and robust backend systems. My journey into programming started with curiosity, leading me to develop interactive and efficient digital solutions. Outside of coding, I love exploring new places, outdoor activities, and spending time with friends and family. I believe in continuous learning, teamwork, and creating impactful solutions.
                 </p>
                 <ul className=" w-full my-3 flex gap-5">
@@ -36,9 +36,9 @@ export default function AboutMe() {
             <div className="hidden px-4 lg:block lg:w-1/12"></div>
             <div className="w-full px-4 lg:w-6/12 flex justify-center items-center">
               <div className="lg:ml-auto lg:text-right">
-                <div className="relative z-10 inline-block pt-11 lg:pt-0">
+                <div className="relative z-10 inline-block lg:pt-0">
                   <img
-                    src="https://i.ibb.co.com/HfSv1rjn/download10.jpg"
+                    src={me}
                     alt="hero"
                     className=" lg:ml-auto w-full md:max-w-md rounded-tl-full rounded-tr-full rounded-br-full"
                   />

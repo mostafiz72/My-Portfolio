@@ -1,9 +1,5 @@
-import React from 'react'
+
 import TitleSection from './TitleSection'
-import Lottie from 'lottie-react'
-import language from '../assets/lottile/Language.json'
-import database from '../assets/lottile/Database.json'
-import tollss from '../assets/lottile/tools.json'
 import SkillLogo from './SkillLogo'
 import Marquee from 'react-fast-marquee'
 
@@ -42,7 +38,6 @@ export default function Skills() {
                     <SkillLogo iconName='SiMongodb' logoName={'Mongodb'}></SkillLogo>
                     <SkillLogo iconName='FaNodeJs' logoName={'NodeJs'}></SkillLogo>
                     <SkillLogo iconName='RiRobot2Fill' logoName={'AI'}></SkillLogo>
-
                 </div>
             </Marquee>
         </>

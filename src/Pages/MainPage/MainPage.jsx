@@ -1,4 +1,3 @@
-import React from 'react'
 // import animationData from "../../assets/lottile/projapoti.json";
 import animationData from "../../assets/lottile/bg.json";
 // import animationData from "../../assets/lottile/bgani.json";
@@ -7,10 +6,10 @@ import AboutMe from '../../Containers/AboutMe';
 import Navbar from '../../Containers/Navbar';
 import Skills from '../../Containers/Skills';
 import Projects from '../../Containers/Projects';
-import Builder from '../../Containers/Builder';
 import Achievements from '../../Containers/Achievements';
 import Contact from '../../Containers/Contact';
 import Footer from '../../Containers/Footer';
+import Builders from '../../Containers/Builders';
 
 export default function MainPage() {
   return (
@@ -25,7 +24,7 @@ export default function MainPage() {
         <div className="relative z-10 text-center text-white space-y-10 container mx-auto w-11/12">
         <Navbar />
         <div><AboutMe /></div>
-        <div><Builder /></div>
+        <div><Builders /></div>
         <div><Skills /></div>
         <div><Projects /></div>
         <div><Achievements /></div>
