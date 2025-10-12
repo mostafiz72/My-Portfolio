@@ -2,7 +2,7 @@
 import { FaCloudDownloadAlt, FaFacebookF, FaLinkedinIn, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
-import me from "../assets/images/me.png";
+import me from "../assets/images/download10.jpg";
 
 export default function AboutMe() {
   return (
@@ -15,11 +15,11 @@ export default function AboutMe() {
               <div className="hero-content flex flex-col text-left">
                 <h1 className=" w-full text-4xl font-bold !leading-[1.208] text-dark dark:text-white sm:text-[42px] lg:text-[40px] xl:text-5xl">
                   Hi there! <br />
-                  <span className=" text-[#5104c5]">I'm Mostafiz</span>
+                  <span className=" text-[#5104c5]">{`I'm Mostafiz`}</span>
                 </h1>
                 <h3 className=" w-full text-[#813aeb] font-bold text-xl mb-5">Full-Stack Developer</h3>
                 <p className=" text-base font-semibold text-body-color dark:text-dark-6 w-full">
-                I'm Mostafiz, a passionate full-stack developer specializing in JavaScript, React.js, Next.js, and MongoDB. I enjoy building scalable web applications, user-friendly interfaces, and robust backend systems. My journey into programming started with curiosity, leading me to develop interactive and efficient digital solutions. Outside of coding, I love exploring new places, outdoor activities, and spending time with friends and family. I believe in continuous learning, teamwork, and creating impactful solutions.
+                {`I'm Mostafiz, a passionate full-stack developer specializing in JavaScript, React.js, Next.js, and MongoDB. I enjoy building scalable web applications, user-friendly interfaces, and robust backend systems. My journey into programming started with curiosity, leading me to develop interactive and efficient digital solutions. Outside of coding, I love exploring new places, outdoor activities, and spending time with friends and family. I believe in continuous learning, teamwork, and creating impactful solutions.`}
                 </p>
                 <ul className=" w-full my-3 flex gap-5">
                   <li className=" bg-[#570acc] hover:bg-[#580accb9] w-10 h-10 flex justify-center items-center rounded-full text-lg"><Link to=""><FaLinkedinIn /></Link></li>

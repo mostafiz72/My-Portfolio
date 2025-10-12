@@ -30,7 +30,7 @@ const colorClass = colorMap[color] || 'text-white hover:border-[#7e31f1ab]';
                     <p className=' w-full text-white text-left py-5'>
                         {desc}
                     </p>
-                    <ul className='  flex gap-3 text-left w-full'>
+                    <ul className='flex flex-wrap gap-3 text-left w-full'>
                         <li className={`bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md ${colorClass} border border-gray-800 ${tool1? "": "hidden"}`}>{tool1}</li>
                         <li className={`bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md ${colorClass} border border-gray-800 ${tool2? "": "hidden"}`}>{tool2}</li>
                         <li className={`bg-white/5 hover:bg-white/10 backdrop-blur-md py-2 px-5 rounded-md ${colorClass} border border-gray-800 ${tool3? "": "hidden"}`}>{tool3}</li>
