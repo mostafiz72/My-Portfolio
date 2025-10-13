@@ -9,8 +9,8 @@ export default function Achievements() {
         <>
             <TitleSection title={'Achievements'} />
             <div className=' md:flex justify-between items-center gap-10'>
-                <Achievement lottieIcon={man} title={"3+"} desc={"Years Active"} />
-                <Achievement lottieIcon={star} title={"4.3+"} desc={"Average Rating"} />
+                <Achievement lottieIcon={man} title={"4+"} desc={"Years Active"} />
+                <Achievement lottieIcon={star} title={"4.7+"} desc={"Average Rating"} />
                 <Achievement lottieIcon={time} title={"100k+"} desc={"Worldwide Users"} />
             </div>
         </>
